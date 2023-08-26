@@ -1,12 +1,12 @@
-package com.dicoding.myunlimitedquotes.adapter
+package com.roynaldi19.dc4_08unlimitedquotes.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.dicoding.myunlimitedquotes.databinding.ItemQuoteBinding
-import com.dicoding.myunlimitedquotes.network.QuoteResponseItem
+import com.roynaldi19.dc4_08unlimitedquotes.databinding.ItemQuoteBinding
+import com.roynaldi19.dc4_08unlimitedquotes.network.QuoteResponseItem
 
 class QuoteListAdapter :
     ListAdapter<QuoteResponseItem, QuoteListAdapter.MyViewHolder>(DIFF_CALLBACK) {

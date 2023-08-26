@@ -1,9 +1,9 @@
-package com.dicoding.myunlimitedquotes.di
+package com.roynaldi19.dc4_08unlimitedquotes.di
 
 import android.content.Context
-import com.dicoding.myunlimitedquotes.data.QuoteRepository
-import com.dicoding.myunlimitedquotes.database.QuoteDatabase
-import com.dicoding.myunlimitedquotes.network.ApiConfig
+import com.roynaldi19.dc4_08unlimitedquotes.data.QuoteRepository
+import com.roynaldi19.dc4_08unlimitedquotes.database.QuoteDatabase
+import com.roynaldi19.dc4_08unlimitedquotes.network.ApiConfig
 
 object Injection {
     fun provideRepository(context: Context): QuoteRepository {

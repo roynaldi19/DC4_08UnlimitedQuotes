@@ -5,5 +5,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "My Unlimited Quotes"
+rootProject.name = "DC4_08UnlimitedQuotes"
 include ':app'

@@ -1,11 +1,11 @@
-package com.dicoding.myunlimitedquotes.ui
+package com.roynaldi19.dc4_08unlimitedquotes.ui
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.dicoding.myunlimitedquotes.adapter.QuoteListAdapter
-import com.dicoding.myunlimitedquotes.databinding.ActivityMainBinding
+import com.roynaldi19.dc4_08unlimitedquotes.adapter.QuoteListAdapter
+import com.roynaldi19.dc4_08unlimitedquotes.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

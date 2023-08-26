@@ -1,10 +1,10 @@
-package com.dicoding.myunlimitedquotes.database
+package com.roynaldi19.dc4_08unlimitedquotes.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.dicoding.myunlimitedquotes.network.QuoteResponseItem
+import com.roynaldi19.dc4_08unlimitedquotes.network.QuoteResponseItem
 
 @Database(
     entities = [QuoteResponseItem::class],

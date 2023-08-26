@@ -1,4 +1,4 @@
-package com.dicoding.myunlimitedquotes.network
+package com.roynaldi19.dc4_08unlimitedquotes.network
 
 import retrofit2.http.GET
 import retrofit2.http.Query

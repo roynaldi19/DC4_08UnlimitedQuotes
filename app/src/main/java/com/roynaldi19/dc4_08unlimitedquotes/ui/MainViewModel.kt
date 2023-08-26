@@ -1,10 +1,10 @@
-package com.dicoding.myunlimitedquotes.ui
+package com.roynaldi19.dc4_08unlimitedquotes.ui
 
 import android.content.Context
 import androidx.lifecycle.*
-import com.dicoding.myunlimitedquotes.data.QuoteRepository
-import com.dicoding.myunlimitedquotes.di.Injection
-import com.dicoding.myunlimitedquotes.network.QuoteResponseItem
+import com.roynaldi19.dc4_08unlimitedquotes.data.QuoteRepository
+import com.roynaldi19.dc4_08unlimitedquotes.di.Injection
+import com.roynaldi19.dc4_08unlimitedquotes.network.QuoteResponseItem
 import kotlinx.coroutines.launch
 
 class MainViewModel(private val quoteRepository: QuoteRepository) : ViewModel() {

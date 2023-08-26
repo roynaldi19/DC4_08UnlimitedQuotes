@@ -1,4 +1,4 @@
-package com.dicoding.myunlimitedquotes
+package com.roynaldi19.dc4_08unlimitedquotes
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
