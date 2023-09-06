@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.roynaldi19.dc4_08unlimitedquotes.adapter.LoadingStateAdapter
 import com.roynaldi19.dc4_08unlimitedquotes.adapter.QuoteListAdapter
 import com.roynaldi19.dc4_08unlimitedquotes.databinding.ActivityMainBinding
 
@@ -26,7 +27,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun getData() {
         val adapter = QuoteListAdapter()
-        binding.rvQuote.adapter = adapter
+        binding.rvQuote.adapter = adapter.withLoadStateFooter(
+            footer = LoadingStateAdapter {
+                adapter.retry()
+            }
+        )
         mainViewModel.quote.observe(this) {
             adapter.submitData(lifecycle, it)
         }
